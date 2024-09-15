@@ -1,0 +1,57 @@
+{
+  "name": "zpl-labelary-preview",
+  "displayName": "ZPL Labelary Preview",
+  "description": "A Visual Studio Code extension that previews ZPL (Zebra Programming Language) labels using the Labelary API.",
+  "version": "0.0.1",
+  "publisher": "dmytrovasin",
+  "author": {
+    "name": "Dmytro Vasin",
+    "url": "https://github.com/DmytroVasin"
+  },
+  "icon": "assets/icon.png",
+  "engines": {
+    "vscode": "^1.93.0"
+  },
+  "categories": ["Other"],
+  "activationEvents": [],
+  "main": "./extension.js",
+  "contributes": {
+    "commands": [
+      {
+        "command": "zpl-labelary-preview.view-label",
+        "title": "View ZPL Label"
+      }
+    ],
+    "menus": {
+      "editor/context": [
+        {
+          "command": "zpl-labelary-preview.view-label",
+          "when": "editorHasSelection || resourceExtname == '.zpl'"
+        }
+      ]
+    }
+  },
+  "license": "MIT",
+  "homepage": "https://github.com/DmytroVasin/zpl-labelary-preview/blob/main/README.md",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/DmytroVasin/zpl-labelary-preview.git"
+  },
+  "bugs": {
+    "url": "https://github.com/DmytroVasin/zpl-labelary-preview/issues",
+    "email": "dmytro.vasin@gmail.com"
+  },
+  "scripts": {
+    "lint": "eslint ."
+  },
+  "devDependencies": {
+    "@types/node": "20.x",
+    "@types/vscode": "^1.93.0",
+    "eslint": "^9.9.1"
+  },
+  "dependencies": {
+    "@vscode-elements/elements": "^1.5.0",
+    "axios": "^1.7.7",
+    "highlight.js": "^11.10.0"
+  }
+}
