@@ -8,7 +8,7 @@
     "name": "Dmytro Vasin",
     "url": "https://github.com/DmytroVasin"
   },
-  "icon": "assets/icon.png",
+  "icon": "assets/logo.png",
   "engines": {
     "vscode": "^1.93.0"
   },

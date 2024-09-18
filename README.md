@@ -4,6 +4,7 @@
 ZPL Labelary Preview is a VSCode extension designed to preview ZPL (Zebra Programming Language) labels using the [Labelary API](https://labelary.com/service.html). It allows users to view label renderings directly within VSCode, manipulate label dimensions and density, and download the labels in various formats such as ZPL, PNG, and PDF.
 
 ## Usage
+Run: `View ZPL Label`
 
 ![ZPL Labelary Preview - Usage](https://github.com/DmytroVasin/zpl-labelary-preview/blob/main/assets/static/preview.gif)
 
