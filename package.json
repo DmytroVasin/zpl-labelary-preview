@@ -2,7 +2,7 @@
   "name": "zpl-labelary-preview",
   "displayName": "ZPL Labelary Preview",
   "description": "A Visual Studio Code extension that previews ZPL (Zebra Programming Language) labels using the Labelary API.",
-  "version": "0.0.2",
+  "version": "0.0.3",
   "publisher": "dmytrovasin",
   "author": {
     "name": "Dmytro Vasin",
