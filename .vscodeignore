@@ -11,3 +11,7 @@ vsc-extension-quickstart.md
 .private/
 assets/static/**
 assets/zpl/**
+webpack.config.js
+package-lock.json
+node_modules
+lib/
