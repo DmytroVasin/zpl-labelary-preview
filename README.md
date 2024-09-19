@@ -6,7 +6,7 @@ ZPL Labelary Preview is a VSCode extension designed to preview ZPL (Zebra Progra
 ## Usage
 Run: `View ZPL Label`
 
-![ZPL Labelary Preview - Usage](https://github.com/DmytroVasin/zpl-labelary-preview/blob/main/assets/static/preview.gif)
+![ZPL Labelary Preview - Usage](https://github.com/DmytroVasin/zpl-labelary-preview/blob/main/assets/static/preview.gif?raw=true)
 
 1. Open a text file in VSCode containing ZPL code.
 2. Select the ZPL code or keep the whole document active.
