@@ -1,5 +1,8 @@
 # Change Log
 
+## [0.0.4] - 2025-03-12
+- Added Label Sizes: 'inches', 'cm', 'mm'
+
 ## [0.0.3] - 2024-09-19
 - Changed logo path
 
