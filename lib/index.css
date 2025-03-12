@@ -57,6 +57,11 @@ vscode-tab-panel {
   margin: 0 10px;
 }
 
+#label_size__units {
+  width: 70px;
+  margin-right: 10px;
+}
+
 #source-code-panel {
   background-color: #424242;
 }
